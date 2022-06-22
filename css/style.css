@@ -16,6 +16,8 @@ img{
 
 .row{
     border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -28,5 +30,48 @@ img{
     border: 1px solid red;
     width: 461px;
     height: 724px;
+    
+
+}
+
+.card_imgcard{
+    position: relative;
+
+}
+
+.card_sale {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+
+}
+
+.card_quality {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+
+}
+
+.text_model{
+    font-weight: bold;
+}
+
+.text_price_grey{
+    font-size: 14px;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.text_price_red{
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
 
 }
