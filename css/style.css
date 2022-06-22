@@ -1,0 +1,32 @@
+/*regole di reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row{
+    border: 1px solid red;
+
+}
+
+.col{
+    border: 1px solid red;
+
+}
+
+.card{
+    border: 1px solid red;
+    width: 461px;
+    height: 724px;
+
+}
