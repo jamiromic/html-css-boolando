@@ -6,28 +6,27 @@
 }
 
 img{
-    max-width: 100%;
+    max-width: 70%;
 }
 
 .container{
-    max-width: 900px;
-    margin: 0 auto;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row{
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
 .col{
-    border: 1px solid red;
 
 }
 
 .card{
-    border: 1px solid red;
     width: 461px;
     height: 724px;
     
